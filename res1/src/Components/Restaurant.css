@@ -1,0 +1,164 @@
+body {
+    background-color: whitesmoke;
+  }
+
+  #Container1 {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 30px;
+    margin-left:50px;
+    color:red;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+  }
+
+  #Container1 > button {
+    margin: 5px 15px;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(0, 57, 84);
+  }
+
+  
+  #RestaurantPage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    box-sizing: border-box;
+    padding: 20px;
+    gap: 30px;
+  }
+  #RestaurantPage > div {
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 15px;
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: rgb(240, 255, 254);
+    justify-content: space-between;
+  }
+  #RestaurantPage > div > :nth-child(1) > img {
+    border-radius: 10px;
+    width: 110px;
+  }
+  #RestaurantPage > div > :nth-child(2) {
+    margin-left: 15px;
+  }
+  #RestaurantPage > div > :nth-child(2) > :nth-child(1) {
+    margin-top: 0px;
+    color: brown;
+  }
+  #RestaurantPage > div > :nth-child(2) > :nth-child(2) {
+    color: gray;
+    font-weight: 500;
+  }
+  #RestaurantPage > div > :nth-child(2) > :nth-child(3) {
+    color: gray;
+    font-weight: 500;
+  }
+  #RestaurantPage > div > :nth-child(2) > :nth-child(4) {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+  }
+  #RestaurantPage > div > :nth-child(2) > :nth-child(4) > div {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0px 10px;
+  }
+  #RestaurantPage > div > :nth-child(2) > :nth-child(5) {
+    font-weight: 500;
+  }
+  #RestaurantPage > div > :nth-child(3) {
+    width: 80px;
+    text-align: right;
+  }
+  #RestaurantPage > div > :nth-child(3) > :nth-child(1) {
+    margin-left: 35px;
+    width: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    font-weight: 500;
+    margin-bottom: 15px;
+    background-color: rgb(107, 240, 107);
+  }
+  #RestaurantPage > div > :nth-child(3) > :nth-child(2) {
+    color: gray;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  #RestaurantPage > div > :nth-child(3) > :nth-child(3) {
+    font-size: 12px;
+    color: gray;
+    font-weight: 500;
+  }
+  #RestaurantPageForm
+  {
+    width: 60%;
+    margin: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: auto;
+   margin-bottom: 100px;
+  border-radius: 10px; 
+  background-color: black;
+  padding-top:30px;
+  padding-bottom:30px
+}
+h3{
+  color: white;
+}
+  #RestaurantPageForm>div>input{
+    margin:10px;
+    border: none;
+    border: 1px solid red;
+    font-size:19px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    /* border: 1px solid gray; */
+    margin-left: 100px;
+  }
+  #RestaurantPageForm>h2{
+    padding: 10px;
+    padding-left: 160px;
+    color: red;
+
+  }
+  .submit{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(4, 51, 63);
+    width: 180px;
+    /* margin-left: 200px; */
+    color: rgb(255, 255, 255);
+    height: 40px;
+    font-size:19px;
+   
+    border-radius: 10px;
+   
+  }
+  #payment{
+    margin-left: 300px;
+  }
+ 
+  #mainContainer{
+    display: flex;
+  }
+ #select{
+   font-size: 21;
+   width: 100px;
+   height: 30px;
+   background-color: red;
+   color: white;
+   border-radius: 5px;
+ }
